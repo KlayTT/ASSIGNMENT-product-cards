@@ -1,47 +1,81 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
-}
-@media (max-width: 600px) {
-    .flex {
-        flex-direction: column;
-        flex: 1 46%;
-        flex-basis: auto;
-    }
-    .card {
-        flex-grow: 1;
-        justify-content: center;
-        margin: auto;
-    }
-    .image {
-        max-height: 300px;
-    }
+    padding: 0%;
+    flex: 1 0 calc(33.333% - 20px);
+    flex-flow: row wrap;
+   
 }
 
-@media (max-width: 480px) {
-    .flex {
-        flex-basis: auto;
+@media (max-width: 400px) {
+    .card1 {
+      flex: calc(33.333% - 20px);
     }
-    .image {
-        max-height: 300px;
+      .card2 { 
+        flex: calc(33.333% - 20px);
+      }
+        .card3 {
+            flex: calc(33.333% - 20px);
+        }
+            .card4 {
+                flex: calc(33.333% - 20px);    }
+  }
+
+  @media (max-width: 400px) {
+    .product-filter {
+      flex-direction: column;
     }
+  }
+
+.flex div {
+    border: 1px #ccc solid;
+    padding:20px;
+    flex: 1 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    
 }
 
-
-body {
-    background-color: #B3E5FC;
-}
-
-.card {
+.card1 {
+    flex: 1 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    background: #03A9F4;
     margin: 10px;
-    box-shadow: 4px 4px 10px #009688;
-    border: solid 1px #BDBDBD;
-    padding-left: 0%;
-    padding-right: 0%;
-    font-family: 'Zen Loop', cursive;
-    flex-basis: 28%;
-    flex-grow: 1;
+    padding: 0%;
+    border-color: #BDBDBD
 }
+
+.card2 {
+    flex: 1 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    background: #0288D1;
+    margin: 10px;
+    padding: 0%;
+    border-color: #BDBDBD
+}
+
+.card3 {
+    flex: 1 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    background: #03A9F4;
+    margin: 10px;
+    padding: 0%;
+    border-color: #BDBDBD
+}
+
+.card4 {
+    flex: 1 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    background: #0288D1;
+    margin: 10px;
+    padding: 0%;
+    border-color: #BDBDBD
+}
+
+
+/*body {
+    background-color: #0288D1;
+}
+*/
 
 h1 {
     text-align: center;
@@ -53,10 +87,35 @@ h2 {
     text-align: center;
     font-weight: bold;
     color: #212121;
-    
+    border-color:lightblue;  
+    border-width: 1px;  
+    border-style: solid;
+    text-align: center;
+    font: bolder 30px 'Zen Tokyo ZooZen Tokyo Zoo';
+    font-family: 'Zen Tokyo Zoo', cursive;
+        
 }
 
-.image {
+h5 {
+    text-align: center;
+    font: bolder 50px 'Zen Tokyo ZooZen Tokyo Zoo';
+    font-family: 'Zen Tokyo Zoo', cursive; 
+}
+
+/* https://www.javatpoint.com/how-to-add-border-in-html - refernce to border */
+
+
+
+
+
+/* stuff I don't want anymore but maybe later not sure */
+
+
+
+
+
+
+/*.image {
     height: 400px;
     width: 400px;
 }
@@ -66,3 +125,15 @@ img {
     max-width: 400px;
     align-items: baseline;
 }
+
+/*.card { //couldn't get this to work the way I wanted it to so tried to restart
+    margin: 10px;
+    box-shadow: 4px 4px 10px #009688;
+    border: solid 1px #BDBDBD;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-family: 'Zen Loop', cursive;
+    flex-basis: 28%;
+    flex-grow: 1;
+}
+*/
