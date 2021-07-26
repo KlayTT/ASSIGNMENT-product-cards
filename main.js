@@ -1,7 +1,1 @@
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
-}
-
+console.log(":O");
