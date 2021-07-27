@@ -7,26 +7,6 @@
    
 }
 
-@media (max-width: 400px) {
-    .card1 {
-      flex: calc(33.333% - 20px);
-    }
-      .card2 { 
-        flex: calc(33.333% - 20px);
-      }
-        .card3 {
-            flex: calc(33.333% - 20px);
-        }
-            .card4 {
-                flex: calc(33.333% - 20px);    }
-  }
-
-  @media (max-width: 400px) {
-    .product-filter {
-      flex-direction: column;
-    }
-  }
-
 .flex div {
     border: 1px #ccc solid;
     padding:20px;
@@ -96,12 +76,47 @@ h2 {
         
 }
 
+h4 {
+    text-align: center;
+    font: bolder 50px 'Zen Tokyo ZooZen Tokyo Zoo';
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
 h5 {
     text-align: center;
     font: bolder 50px 'Zen Tokyo ZooZen Tokyo Zoo';
     font-family: 'Zen Tokyo Zoo', cursive; 
 }
 
+.card-description {
+    text-align: center;
+    font: bolder 30px 'Zen Tokyo ZooZen Tokyo Zoo';
+    font-family: 'Zen Tokyo Zoo', cursive; 
+}
+
+ul {
+    justify-content: center;
+    font: bolder 20px 'Baloo Chettan 2';
+    font-family: 'Baloo Chettan 2', cursive; 
+}
+
+h6 {
+    text-align: center;
+    font: bolder 30px 'Zen Tokyo ZooZen Tokyo Zoo';
+    font-family: 'Zen Tokyo Zoo', cursive;  
+}
+
+.card-text {
+    justify-content: center;
+    font: bolder 20px 'Baloo Chettan 2';
+    font-family: 'Baloo Chettan 2', cursive; 
+}
+
+footer {
+    justify-content: center;
+    font: bolder 20px 'Zen Tokyo ZooZen Tokyo Zoo';
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
 /* https://www.javatpoint.com/how-to-add-border-in-html - refernce to border */
 
 
@@ -126,7 +141,7 @@ img {
     align-items: baseline;
 }
 
-/*.card { //couldn't get this to work the way I wanted it to so tried to restart
+/*.card { //couldn't get this to work the way I wanted it to so tried to restart, just decided to edit each box by themselves.
     margin: 10px;
     box-shadow: 4px 4px 10px #009688;
     border: solid 1px #BDBDBD;
