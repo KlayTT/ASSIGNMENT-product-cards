@@ -117,6 +117,11 @@ footer {
     font: bolder 20px 'Zen Tokyo ZooZen Tokyo Zoo';
     font-family: 'Zen Tokyo Zoo', cursive;
 }
+.child-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* https://www.javatpoint.com/how-to-add-border-in-html - refernce to border */
 
 
